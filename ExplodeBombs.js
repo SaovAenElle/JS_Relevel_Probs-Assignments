@@ -26,7 +26,7 @@ for(let i = 0; i<arr.length; i++){
 console.table(arr)
 
 /*
-Looping to trigger bombs. When a bomb is triggered, all the surrounding elements (8) are affected unless it is a bomb or a corner element. In case of a corner element,
+Looping to trigger bombs. When a bomb is triggered, all the surrounding elements (8) are affected unless it is a bomb or a corner/side element. In case of a corner/side element,
 the remaining neighbours which are not a bomb are affected.
 */
 for(let i = 0; i<arr.length; i++){
